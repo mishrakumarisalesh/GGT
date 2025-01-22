@@ -774,4 +774,9 @@ footer {
         display: inline-block;
         margin: 0 0 23px 5px;
     }
+    
+.embed-responsive-item:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
 }
