@@ -63,55 +63,114 @@
 <section id="home" class="page-section">
 	
 <div class="banner-container">
-	<!--
-        <div class="bannerOverlay"></div>
-            <div class="container banner-content">
-		    &lt;<!--h1>Responsive Page Scrolling<br/><span>with Bootstrap</span></h1>
-		    <p class="lead">Use the navigation above to scroll to different page sections.</p>		   
-		    <p><a href="#about" class="button-outline"> More.. </a></p>-->
-               <div id="da-slider" class="da-slider" style="background-position: 0% 0%;">
-				<div class="da-slide da-slide-toleft">
-					<h2>Easy management</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-					<a href="#" class="da-link button-outline">Read more</a>
-					<div class="da-img"></div>
-				</div>
-				<div class="da-slide da-slide-fromright da-slide-current">
-					<h2>Revolution</h2>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-					<a href="#" class="da-link button-outline">Read more</a>
-					<div class="da-img"></div>
-				</div>
-				<div class="da-slide da-slide-toleft">
-					<h2>Warm welcome</h2>
-					<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
-					<a href="#" class="da-link button-outline">Read more</a>
-					<div class="da-img"></div>
-				</div>
-				<div class="da-slide da-slide-toleft">
-					<h2>Quality Control</h2>
-					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					<a href="#" class="da-link button-outline">Read more</a>
-					<div class="da-img"></div>
-				</div>
-				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
-					<span class="da-arrows-next"></span>
-				</nav>
-			<nav class="da-dots"><span class=""></span><span class="da-dots-current"></span><span class=""></span><span class=""></span></nav></div>
-	    </div>
+	<!-- Carousel wrapper -->
+<div
+  id="carouselVideoExample"
+  data-mdb-carousel-init class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+>
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button data-mdb-button-init
+      type="button"
+      data-mdb-target="#carouselVideoExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button data-mdb-button-init
+      type="button"
+      data-mdb-target="#carouselVideoExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button data-mdb-button-init
+      type="button"
+      data-mdb-target="#carouselVideoExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <video class="img-fluid" autoplay loop muted>
+        <source src="videos/GGTVideo.mp4" type="video/mp4" />
+      </video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>
+          Nulla vitae elit libero, a pharetra augue mollis interdum.
+        </p>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <video class="img-fluid" autoplay loop muted>
+         <source src="videos/GGT2.mp4" type="video/mp4" />
+      </video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <video class="img-fluid" autoplay loop muted>
+       <source src="videos/test.mp4" type="video/mp4" />
+     
+      </video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button data-mdb-button-init
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselVideoExample"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button data-mdb-button-init
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselVideoExample"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+
     </div>
 	
     <!--/.container-->
 <!-- video example 
 	  <video class="embed-responsive-item" controls>
-	--->
+	
 <div class="container">
   <video autoplay muted>
     <source src="videos/test.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div>
+</div> -->
 
 <!-- End video example-->
 	-->
